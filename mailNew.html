@@ -18,7 +18,7 @@
 
             }
             .screenSmallBlock{
-                display: none;
+                display: none !important;
             }
         }
         @media only screen and (max-width: 480px){
@@ -60,6 +60,12 @@
                 font-size: 20px !important;
                 line-height: 22px !important;
             }
+            .screenSmallNone{
+                display: none !important;
+            }
+            .screenSmallBlock{
+                display: block !important;
+            }
             .mainText{
                 padding-bottom: 25px !important;
             }
@@ -71,6 +77,10 @@
             }
             .heightTopField{
                 height: 40px !important;
+            }
+            .button{
+                padding-left: 62px !important;
+                padding-right: 68px !important;
             }
             .privacyBlock{
                 padding-bottom: 150px !important;
@@ -115,15 +125,12 @@
             .mainExampleImage{
                 width: 100% !important;
             }
-            .screenSmallNone{
-                display: none !important;
-            }
-            .screenSmallBlock{
-                display: block !important;
+            .widthField{
+                width: 10px !important;
             }
             .button{
-                padding-left: 62px !important;
-                padding-right: 68px !important;
+                padding-left: 45px !important;
+                padding-right: 50px !important;
             }
             .footerText{
                 line-height: 13px !important;
@@ -304,6 +311,7 @@
                                                                     </tr>
                                                                 </table>
                                                             </td>
+                                                            <!-- Block for small and middle screen -->
                                                             <td
                                                                 class="plr40 screenSmallBlock" style="border-collapse: collapse !important; color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; margin: 0; padding: 0; padding-left: 40px; padding-right: 30px; text-align: left; vertical-align: top; word-break: break-word; display: none;">
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%"
@@ -312,15 +320,15 @@
                                                                         <!-- Hold and drag -->
                                                                         <td width="20%" style="border-collapse: collapse !important; margin: 0; padding: 0; text-align: center; vertical-align: top; width: 20%;"><img src="http://ergo.zeym.org/qc/hold_icon.png" alt="Hold and drag" width="27"
                                                                             style="-ms-interpolation-mode: bicubic; display: inline-block; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; outline: none; text-decoration: none; vertical-align: top; width: auto;"></td>
-                                                                        <td  style="border-collapse: collapse !important; color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin: 0; padding: 0; padding-bottom: 5px; text-align: left; vertical-align: top; word-break: break-word;">
-                                                                            <p style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin:0;padding:0; word-break: break-word;"> <strong style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 700; line-height: 20px; word-break: break-word;">Hold and drag</strong><br style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 500; line-height: 20px;"> the chart to review earlier price dynamic.</p></td>
+                                                                        <td  style="border-collapse: collapse !important; color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin: 0; padding: 0; padding-bottom: 10px; text-align: left; vertical-align: top; word-break: break-word;">
+                                                                            <p style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin:0;padding:0; word-break: break-word;"> <strong style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 700; line-height: 20px; word-break: break-word;">Hold and drag</strong> the chart to review earlier price dynamic.</p></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <!-- Scale the chart -->
                                                                         <td width="20%" style="border-collapse: collapse !important; margin: 0; padding: 0; text-align: center; vertical-align: top; width: 20%;"><img src="http://ergo.zeym.org/qc/scale_icon.png" alt="Scale the chart" width="27"
                                                                             style="-ms-interpolation-mode: bicubic; display: inline-block; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; outline: none; text-decoration: none; vertical-align: top; width: auto;"></td>
                                                                         <td style="border-collapse: collapse !important; color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-break: break-word;">
-                                                                            <p style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin:0; padding:0; padding-bottom: 5px; word-break: break-word;"><strong style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 700; line-height: 20px; word-break: break-word;">Scale the chart</strong> by changing the display period between 30 days and 30 minutes.</p>
+                                                                            <p style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 400; line-height: 20px; margin:0; padding:0; padding-bottom: 10px; word-break: break-word;"><strong style="color:#3c3e44; font-family: 'Roboto','Helvetica','Arial',sans-serif !important; font-size: 14px; font-weight: 700; line-height: 20px; word-break: break-word;">Scale the chart</strong> by changing the display period between 30 days and 30 minutes.</p>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -344,7 +352,7 @@
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%"
                                                 style="border-collapse: collapse; border-spacing: 0; display: block; padding: 0; margin:0 auto; text-align: left; vertical-align: top; width: 100%;">
                                                 <tr>
-                                                    <td class="widthField heightTopField darkBG" bgcolor ="#e2f4ff" width="30" height="56" style="border-collapse: collapse;width:30px; background-color:#e2f4ff;"></td>
+                                                    <td class="widthField heightTopField darkBG" bgcolor ="#e2f4ff" width="20" height="56" style="border-collapse: collapse;width:20px; background-color:#e2f4ff;"></td>
                                                     <!-- white background whith padding-->
                                                     <td class="plr30 whiteBlock" bgcolor ="##ffffff" style="border-collapse: collapse;background-color:#ffffff; padding:0; margin:0; padding-left:30px; padding-right:30px">
                                                         <table  border="0" cellpadding="0" cellspacing="0" width="100%"
@@ -365,10 +373,10 @@
                                                             </td>
                                                         </tr></table>
                                                     </td>
-                                                    <td class="widthField heightTopField darkBG" bgcolor ="#e2f4ff" width="30"  height="56" style="border-collapse: collapse;width:30px; background-color:#e2f4ff;"></td>
+                                                    <td class="widthField heightTopField darkBG" bgcolor ="#e2f4ff" width="20"  height="56" style="border-collapse: collapse;width:20px; background-color:#e2f4ff;"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="widthField" bgcolor ="#003dd8" width="30" style="border-collapse: collapse;width:30px;background-color:#003dd8;"></td>
+                                                    <td class="widthField" bgcolor ="#003dd8" width="20" style="border-collapse: collapse;width:20px;background-color:#003dd8;"></td>
                                                     <!-- text section-->
                                                     <td bgcolor ="#003dd8" style="border-collapse: collapse;background-color:#003dd8">
                                                         <table border="0" cellpadding="0" cellspacing="0" width="80%"
@@ -406,12 +414,12 @@
                                                         
                                                         </table>
                                                     </td>
-                                                    <td class="widthField" bgcolor ="#003dd8" width="30" style="border-collapse: collapse;width:30px;background-color:#003dd8"></td>
+                                                    <td class="widthField" bgcolor ="#003dd8" width="20" style="border-collapse: collapse;width:20px;background-color:#003dd8"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="widthField darkBG" bgcolor ="#e2f4ff" width="30"  height="30" style="border-collapse: collapse;width:30px;background-color:#e2f4ff;"></td>
+                                                    <td class="widthField darkBG" bgcolor ="#e2f4ff" width="20"  height="30" style="border-collapse: collapse;width:20px;background-color:#e2f4ff;"></td>
                                                     <td style="border-collapse: collapse;background: #ffffff url('http://ergo.zeym.org/qc/blurred.png') center bottom no-repeat;background-size: cover;"></td>
-                                                    <td class="widthField darkBG" bgcolor ="#e2f4ff" width="30"  height="30" style="border-collapse: collapse;width:30px;background-color:#e2f4ff;"></td>
+                                                    <td class="widthField darkBG" bgcolor ="#e2f4ff" width="20"  height="30" style="border-collapse: collapse;width:20px;background-color:#e2f4ff;"></td>
                                                 </tr>
                                         </table>
                                     </td>
